@@ -1,0 +1,21 @@
+.col1{
+	color: green;
+}
+.col2{
+	color: blue;
+}
+.col3{
+	color: black;
+}
+.col4{
+	color: yellow;
+}
+.col5{
+	color: violet;
+}
+.col6{
+	color: red;
+}
+body{
+	background-color: lightgray;
+}

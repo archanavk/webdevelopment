@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<p id="demo"></p>
+	<script type="text/javascript">
+		var person={
+			firstName:"Archana",
+			lastName:"vk",
+			age:21,
+			fullName:function(){
+				return this.firstName+" "+this.lastName;//+ indicates that we are contining the stmt.
+			}//when ever we create the function inside the variable we wont write the function name,for which ever the parameter we are writing the fun will b considered as the fun name.
+		};//THIS KEYWORD:-this refers to tha owner of the object.in our example this refers to person object.
+		//the person object owns the full name method or fun.
+		document.getElementById('demo').innerHTML=person.fullName();
+	</script>
+</body>
+</html>

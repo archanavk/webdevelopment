@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>grid layouts</title>
+	<style type="text/css">
+		body{
+			display: grid;
+			grid-template-areas: "header header header" "nav article ads" "footer footer footer" ;
+			grid-template-rows: 80px 1fr 70px;
+			grid-template-columns: 20% 1fr 15%;
+			grid-row-gap: 10px;
+			grid-column-gap: 10px;
+			height: 100vh;
+			margin: 0;
+		}
+		header,footer,nav,article,div{
+			padding: 1.2em;
+			background-color: powderblue;
+		}
+		#pageheader{
+			grid-area: header;
+			text-align: center;
+		}
+		#pagefooter{
+			grid-area: footer;
+		}
+		#mainarticle{
+			grid-area: article;
+		}
+		#mainnav{
+			grid-area: nav;
+		}
+		#sideads{
+			grid-area: ads;
+		}
+	</style>
+</head>
+<body>
+	<header id="pageheader">
+		Infidata Technologies
+	</header>
+	<article id="mainarticle">Article</article>
+	<!--<p>article type defines an independent self contained article(data)</p>-->
+	<nav id="mainnav">Navigation</nav>
+	<div id="sideads">Advertisement</div>
+	<footer id="pagefooter">
+		Footer
+	</footer>
+	<!--<p>fr indicates the frams.vh means relative height.em means gives the font size related to the padding size(since given in the padding)</p>-->
+</body>
+</html>

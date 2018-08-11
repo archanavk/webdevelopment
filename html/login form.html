@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>login form</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style type="text/css">
+		.input-container{
+			display:flex;
+			width: 100%;
+			margin-bottom: 15px;
+		}
+
+		.input-field{
+			width: 100%;
+			padding: 10px;
+			outline: none;
+		}
+		.btn{
+			background-color: dodgerblue;
+			color: white;
+			padding: 15px 20px;
+			cursor: pointer;
+			width: 100%;
+			opacity: 0.9;
+}
+.icon{
+padding: 10px;
+background-color: dodgerblue;
+color: white;
+min-width: 50px;
+text-align: center;
+}
+</style>
+</head>
+<body>
+	<form style="max-width: 400px;margin: auto;">
+		<div class="input-container">
+			<i class="fa fa-user icon"></i><!--<p>icon is predefined 'fa fa-user is for user input,fa fa-envelope is for email,fa fa-key icon is for password.insted of using the class name for styling for three different icons with different class names,we use icon for stylings for all the icons at the same time</p>-->
+			<input class="input-field" type="text" name="user name" value="user name" placeholder="enter user name">
+		</div>
+		<div class="input-container">
+			<i class="fa fa-envelope icon"></i>
+			<input class="input-field"type="text" name="email" value="email" placeholder="email">
+		</div>
+		<div class="input-container">
+			<i class="fa fa-key icon"></i>
+			<input class="input-field"type="password" name="password" value="password" placeholder="password">
+		</div>
+		<button type="submit" class="btn">Register</button>
+		<!--<p>any style which is defined inside the web element is called inline styling.any styling which is dedined inside the head,is called internal styling.cursor pointer points that perticular class with the pointer symbol ie.,hand symbol</p>-->
+		<!--<p>link field we used to add the pre defined library for our form</p>-->
+	</form>
+</body>
+</html>

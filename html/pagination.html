@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>pagination</title>
+	<style type="text/css">
+		.pagination{
+			display: inline-block;
+		}
+		.pagination a{
+			color: black;
+			float: left;
+			padding: 8px 16px;
+			text-decoration: none;
+		}
+		.pagination a.active{
+			background-color: green;
+			color: white;
+			border-radius: 5px;
+		}
+		.pagination a:hover:not(.active){
+			background-color: #ddd;
+			border-radius: 5px;
+		}
+	</style>
+	<!--<p>float left tells u that the numbers are left to right that is ascending order,float right tells us that the numbers are in descending order.border-radius changes the shape of the border based on the radius given</p>-->
+</head>
+<body>
+	<div class="pagination">
+		<a href="#">&laquo;</a>
+		<a href="#">1</a>
+		<a href="#">2</a>
+		<a href="#" class="active">3</a>
+		<a href="#">4</a>
+		<a href="#">5</a>
+		<a href="#">6</a>
+		<a href="#">&raquo;</a>
+	</div>
+<!--<p>there will be some glip(here in this &laquo; and &raquo are glips) special characters to perform certain actions </p>-->
+</body>
+</html>

@@ -1,0 +1,5 @@
+Bootstrap is a framework which is developed by twitter employees called MARK OTTO.
+	Bootstrap is a frame work which is used to responsive stylings in html,css n javascript using their predefined libraries.
+		Bootstrap can be used in two ways.
+			1.go to get bootstrap.com and download a bootstrap file and import it into your html page.
+			2.import a cdn libraries into your html page directly. 

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Registration</title>
+	<style type="text/css">
+		fieldset{
+			height: 350px;
+			width: 550px;
+		}
+	</style>
+</head>
+<body>
+	<center>
+	<fieldset>
+	<h1>User Registration</h1>
+	<p>Please complete the following form to register with our site:</p><br>
+	<form>
+	<table>
+		<tr>
+			<td>User Name:</td><td>
+			<input type="text" name="user name"></td>
+			</tr>
+			<tr>
+				<td>Password:</td><td><input type="password" name="password"></td>
+			</tr>
+			<tr>
+				<td>Gender:</td><td><input type="radio" name="gender" value="male">Male<br>
+					<input type="radio" name="gender" value="female">Female
+				</td>
+			</tr>
+			<tr>
+				<td>How did you hear about us?:</td><td><input list="answer" name="answer">
+					<datalist id="answer">
+						<option value="good"></option>
+							<option value="excelent"></option>
+								<option value="acceptable">
+						</option>
+
+					</datalist>
+				</td>
+			</tr>
+			<tr><td>Please select this box if you wish <br>to be added to our mailing list</td><td><input type="checkbox" name="mailing list"></td>
+			</tr>
+			<tr><td>
+				We will not press on your details to any third party</td><td><button>register now</button>
+				</td>
+			</tr>
+		</table>
+</form>
+</fieldset>
+</center>
+</body>
+</html>

@@ -1,0 +1,31 @@
+h1{
+			border: 2px solid tomato;
+		}
+		h2{
+			border: 2px solid orange;
+		}
+		h3{
+			border: 2px solid dodgerblue;
+		}
+		h4{
+			border: 2px solid mediumseagreen;
+		}
+		h5{
+			border: 2px solid gray;
+		}
+		h6{
+			border: 2px solid slateblue;
+		}
+		#h01{
+			border: 2px solid violet;
+		}
+		#h02{
+			border: 2px solid lightgray;
+		}
+		#h03{
+			border: 2px solid powderblue;
+		}
+		body{
+			background-color: black;
+			color: white;
+		}

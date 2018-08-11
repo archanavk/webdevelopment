@@ -1,0 +1,278 @@
+format of html
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+</body>
+</html>
+HTML tags:are element names surrounded by angle brackets.
+			<tagname>content goes here.....</tagname>
+
+HTML heading:are defined with the <h1> to <h6>tags.
+	<h1>defines the most important heading,<h6>defines the least important heading.
+
+HTML paragraphs:are defined with <p>tag.
+
+HTML links:are defined with the <a>(anchor) tag.
+	Eg:- <a href="https://www.w3schools.com">This is a link</a>
+	(link's destination is specified in href attribute.)
+
+HTML images:are defined with the <img> tag.
+	The source file (src),alternative text(alt),width,&height are provided as attribute.
+	Eg:- <img src="w3schools.jp" alt="w3schools.com" width="104" height="142">
+
+HTML Buttons:are defined with the <button>tag.
+	Eg:- <button>Click me</button>
+
+HTML lists:are defined with the <ul>(unordered/bullet list) or the <ol>(ordered/numbered lists) tag,followed by <li> tags (list items).
+	<ul>                                                <ol>
+		<li>......</li>                                      <li>........</li>
+	</ul>                                               </ol>
+
+<br> is used to break the line.
+
+Empty HTML elements:<br> is an ampty element without a closing tag.Empty elements can be "closed" in th eopening tag like this:<br/>
+
+<b>HTML Attribute:<b>Attribute provide additional information about an element.
+	Attribute are always specified in the start tag.
+	Attribute usually come in name/value pairs like : name="value";
+
+The href Attribute: HTML links are defined with the <a>tag.The link address is specified in href attribute.
+
+The src Attribute: HTML images are defined with <img>tag.
+	The filename of the image source is specified in the "src" attribute
+	Eg:-<img src="img_girl.jpg">
+
+The width and height Attributes:images in HTML have a set of size attributes, which specifies the width and height of the image
+	Eg:-<!DOCTYPE html>
+	<html>
+	<body>
+
+	<h2>Size Attributes</h2>
+	<p>Images in HTML have a set of size attributes, which specifies the width and height of the image:</p>
+
+	<img src="img_girl.jpg" width="500" height="600">
+
+	</body>
+	</html>
+The image size is specified in pixels: width="500" means 500 pixels wide
+
+The alt Attribute:The alt attribute specifies an alternative text to be used, when an image cannot be displayed.
+	The value of the attribute can be read by screen readers. This way, someone "listening" to the webpage, e.g. a blind person, can "hear" the element.
+	Eg:-<!DOCTYPE html>
+<html>
+<body>
+<h2>The alt Attribute</h2>
+<p>The alt attribute should reflect the image content, so users who cannot see the image gets an understanding of what the image contains:</p>
+<img src="img_girl.jpg" alt="Girl with a jacket" width="500" height="600">
+</body>
+</html>
+
+The style Attribute:The style attribute is used to specify the styling of an element, like color, font, size etc.
+	Eg:<!DOCTYPE html>
+<html>
+<body>
+<h2>The style Attribute</h2>
+<p>The style attribute is used to specify the styling of an element, like color:</p>
+<p style="color:red">I am a paragraph.</p>
+</body>
+</html>
+
+The lang Attribute:The language of the document can be declared in the <html> tag.
+	The language is declared with the lang attribute.
+	Declaring a language is important for accessibility applications (screen readers) and search engines
+	Eg:<!DOCTYPE html>
+	<html lang="en-US">
+	<body>
+	...
+	</body>
+	</html>
+
+The title Attribute:Here, a title attribute is added to the <p> element. The value of the title attribute will be displayed as a tooltip when you mouse over the paragraph.
+	Eg:<!DOCTYPE html>
+		<html>
+		<body>
+		<h2 title="I'm a header">The title Attribute</h2>
+		<p title="I'm a tooltip">
+		Mouse over this paragraph, to display the title attribute as a tooltip.
+		</p>
+		</body>
+		</html>
+
+HTML Headings:Headings are defined with the <h1> to <h6> tags.
+	<h1> defines the most important heading. <h6> defines the least important heading.
+		<!DOCTYPE html>
+			<html>
+			<body>
+			<h1>Heading 1</h1>
+			<h2>Heading 2</h2>
+			<h3>Heading 3</h3>
+			<h4>Heading 4</h4>
+			<h5>Heading 5</h5>
+			<h6>Heading 6</h6>
+			</body>
+			</html>
+
+Bigger Headings:Each HTML heading has a default size. However, you can specify the size for any heading with the style attribute, using the CSS font-size property.
+	Eg:<!DOCTYPE html>
+		<html>
+		<body>
+		<h1 style="font-size:60px;">Heading 1</h1>
+		<p>You can change the size of a heading with the style attribute, using the font-size property.</p>
+		</body>
+		</html>
+
+HTML Horizontal Rules:The <hr> tag defines a thematic break in an HTML page, and is most often displayed as a horizontal rule.
+	The <hr> element is used to separate content (or define a change) in an HTML page:
+	Eg:<!DOCTYPE html>
+		<html>
+		<body>
+		<h1>This is heading 1</h1>
+		<p>This is some text.</p>
+		<hr>
+		<h2>This is heading 2</h2>
+		<p>This is some other text.</p>
+		<hr>
+		<h2>This is heading 2</h2>
+		<p>This is some other text.</p>
+		</body>
+		</html>	
+
+HTML Paragraphs:The HTML <p> element defines a paragraph.
+	Eg:<!DOCTYPE html>
+		<html>
+		<body>
+		<p>This is a paragraph.</p>
+		<p>This is a paragraph.</p>
+		<p>This is a paragraph.</p>
+		</body>
+		</html>		
+
+HTML Line Breaks:The HTML <br> element defines a line break.
+	Use <br> if you want a line break (a new line) without starting a new paragraph.
+
+The HTML <pre> Element:The HTML <pre> element defines preformatted text.
+	The text inside a <pre> element is displayed in a fixed-width font (usually Courier), and it preserves both spaces and line breaks:
+		Eg:<!DOCTYPE html>
+			<html>
+			<body>
+				<p>The pre tag preserves both spaces and line breaks:</p>
+				<pre>
+  					My Bonnie lies over the ocean.
+					My Bonnie lies over the sea.
+					My Bonnie lies over the ocean.
+   					Oh, bring back my Bonnie to me.
+				</pre>
+			</body>
+			</html>
+
+The HTML Style Attribute:Setting the style of an HTML element, can be done with the style attribute.
+	The HTML style attribute has the following syntax:
+		<tagname style="property:value;">
+
+HTML Background Color:The background-color property defines the background color for an HTML element.
+	This example sets the background color for a page to powderblue:
+	Eg:<!DOCTYPE html>
+		<html>
+		<body style="background-color:powderblue;">
+		<h1>This is a heading</h1>
+		<p>This is a paragraph.</p>
+		</body>
+		</html>
+
+HTML Text Color:The color property defines the text color for an HTML element:
+	Eg:<!DOCTYPE html>
+		<html>
+		<body>
+		<h1 style="color:blue;">This is a heading</h1>
+		<p style="color:red;">This is a paragraph.</p>
+		</body>
+		</html>
+
+HTML Fonts:The font-family property defines the font to be used for an HTML element:
+	Eg:<!DOCTYPE html>
+		<html>
+		<body>
+		<h1 style="font-family:verdana;">This is a heading</h1>
+		<p style="font-family:courier;">This is a paragraph.</p>
+		</body>
+		</html>
+
+HTML Text Size:The font-size property defines the text size for an HTML element:
+	Eg:<!DOCTYPE html>
+		<html>
+		<body>
+		<h1 style="font-size:300%;">This is a heading</h1>
+		<p style="font-size:160%;">This is a paragraph.</p>
+		</body>
+		</html>
+
+HTML Text Alignment:The text-align property defines the horizontal text alignment for an HTML element:
+	Eg:<!DOCTYPE html>
+		<html>
+		<body>
+		<h1 style="text-align:center;">Centered Heading</h1>
+		<p style="text-align:center;">Centered paragraph.</p>
+		</body>
+		</html>
+
+HTML Formatting Elements:In the previous chapter, you learned about the HTML style attribute.
+	HTML also defines special elements for defining text with a special meaning.
+	HTML uses elements like <b> and <i> for formatting output, like bold or italic text.
+	Formatting elements were designed to display special types of text:
+	<b> - Bold text
+    <strong> - Important text
+    <i> - Italic text
+    <em> - Emphasized text
+    <mark> - Marked text
+    <small> - Small text
+    <del> - Deleted text
+    <ins> - Inserted text
+    <sub> - Subscript text
+    <sup> - Superscript text
+
+HTML Quotation and Citation Elements:
+
+HTML <q> for Short Quotations:The HTML <q> element defines a short quotation.
+	Browsers usually insert quotation marks around the <q> element.
+		Eg:<!DOCTYPE html>
+			<html>
+			<body>
+			<p>Browsers usually insert quotation marks around the q element.</p>
+			<p>WWF's goal is to: <q>Build a future where people live in harmony with nature.</q></p>
+			</body>
+			</html>
+
+HTML <blockquote> for Quotations:The HTML <blockquote> element defines a section that is quoted from another source.
+	Browsers usually indent <blockquote> elements.
+		Eg:<!DOCTYPE html>
+			<html>
+			<body>
+			<p>Browsers usually indent blockquote elements.</p>
+			<blockquote cite="http://www.worldwildlife.org/who/index.html">
+			For 50 years, WWF has been protecting the future of nature.
+			The world's leading conservation organization,
+			WWF works in 100 countries and is supported by
+			1.2 million members in the United States and
+			close to 5 million globally.
+			</blockquote>
+			</body>
+			</html>
+
+HTML <abbr> for Abbreviations:The HTML <abbr> element defines an abbreviation or an acronym.
+	Marking abbreviations can give useful information to browsers, translation systems and search-engines.
+	Eg:<!DOCTYPE html>
+		<html>
+		<body>
+		<p>The <abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+		<p>Marking up abbreviations can give useful information to browsers, translation systems and 		search-engines.</p>
+		</body>
+		</html>
+
+
+
+
+	

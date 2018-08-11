@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js object constructors</title>
+</head>
+<body>
+	<p id="demo"></p>
+	<p id="demo1"></p>
+	<script type="text/javascript">
+	function person(first,last,age){
+	this.firstName=first;
+	this.lastName=last;
+	this.age=age;
+	}
+	var myFather=new person("KrishnaReddy","v","55");
+	var myMother=new person("Mallika","A","45");
+	document.getElementById('demo').innerHTML="myFather age is "+myFather.age+"."
+	document.getElementById('demo1').innerHTML="myMother age is "+myMother.age+"."
+	//creating the fun once n calling the fun multiple times for different objects by passing the same types of  fun parameters.
+	</script>
+</body>
+</html>

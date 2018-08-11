@@ -1,0 +1,14 @@
+function is a reserved keyword used to perform set of actions in javascript.there are two types of functions in javascript:-.
+		(1)system functions:-are nothing but predefined functions in javascript.Eg:document.write,alert,console.log
+		(2)user defined functions:-is nothing but users can write their own functions according to there needs.
+		syntax for defining a function:
+		function functionname(parameters){
+			//web content
+		}
+	function is a keyword that tells javascript that u r defining a function.
+functionname is the name of the function it can be defined by any nameas per user needs. 
+	steps to define a function name:-
+		(1)it must be one word.
+		(2)it must contain only letters ,numbers or underscore(a-z,A-Z,0-9,_).
+		(3)it cannot begin with  a number.
+		(4)it cannot be used as any of the reserved keywords.Eg:function,alert,document,javascript etc.

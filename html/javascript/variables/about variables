@@ -1,0 +1,16 @@
+variables:are used to define r declare some values in javascript.
+	
+	syntax: var variablename= 'value';
+		var-is the reserved keyword to define the variable.
+		variablename:-is the name of the variable where user is defining according to their needs.
+	
+	rules to define a variable name:
+		1. it must be one word.
+		2. it must consists only of numbers,letters,or underscores.
+		3. it must not begin with a number.
+		4. it should not contain any of the reserved keywords.
+
+	local variables: variables which are declared inside the function and we 		cannot access local variables outside the function.
+
+	global variables: 
+		
